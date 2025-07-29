@@ -1,0 +1,62 @@
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body {
+      background-color: cornsilk;
+  }
+
+  input {
+      padding: 0.5rem;
+      height: fit-content;
+      width: 40cap;
+      font-family: 'Courier New', Courier, monospace;
+      border: 2.5px solid black;
+      border-radius: 1cap;
+  }
+
+  select {
+      padding: 0.5rem;
+      height: fit-content;
+      width: 40cap;
+      font-family: 'Courier New', Courier, monospace;
+      border: 2.5px solid black;
+      border-radius: 1cap;
+  }
+
+  button {
+      padding: 0.5rem;
+      height: fit-content;
+      width: 40cap;
+      font-family: 'Courier New', Courier, monospace;
+      border: 2.5px solid black;
+      cursor: pointer;
+      border-radius: 1cap;
+      background-color: white;
+  }
+
+
+  .container {
+      max-height: fit-content;
+      max-width: 40%;
+      background-color: rgb(234, 146, 146);
+      position: relative;
+      padding: 5em;
+  }
+
+  .myResult {
+      font-family: fantasy;
+      text-align: start;
+      position: relative;
+      top: 3rem;
+
+  }
+
+  .myResult>p {
+      font-family: fantasy;
+      text-align: start;
+      position: relative;
+      top: 2rem;
+  }
